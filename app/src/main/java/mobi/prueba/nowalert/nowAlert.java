@@ -39,6 +39,8 @@ public class nowAlert extends AppCompatActivity {
      * tv = TextView
      * lv = ListView
      * DB = Data Base
+     *
+     *
      */
     //------------------FINAL--------------------//
 
