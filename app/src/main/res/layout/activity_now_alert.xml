@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".nowAlert"
+    android:orientation="vertical"
+    >
+
+
+    <TextView
+        android:id="@+id/tvRc"
+        android:layout_width="342dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="16dp"
+        android:background="#e0e0e0 "
+        android:gravity="center_vertical"
+        android:text="00"
+        android:textAlignment="center"
+        android:textSize="130sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/ibtReaload"
+        android:layout_width="33dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="335dp"
+        android:layout_marginTop="153dp"
+        android:background="#ffffff"
+        android:onClick="reloadRc"
+        app:layout_constraintStart_toStartOf="@+id/lvRc"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@android:drawable/ic_menu_rotate" />
+
+    <TextView
+        android:id="@+id/tvExp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="6dp"
+        android:layout_weight="3"
+        android:text="@string/textoExp"
+        android:textAlignment="center"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toTopOf="@+id/lvRc"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ibtReaload" />
+
+    <ListView
+        android:id="@+id/lvRc"
+        android:layout_width="match_parent"
+        android:layout_height="626dp"
+        android:layout_weight="3"
+        android:headerDividersEnabled="false"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvExp" />
+
+</android.support.constraint.ConstraintLayout>

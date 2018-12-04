@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#f44336</color>
+    <color name="colorPrimaryDark">#D32F2F</color>
+    <color name="colorAccent">#009688</color>
+
+    <color name="btCancelar">#ef9a9a</color>
+    <color name="btGuardar">#c5e1a5</color>
+
+    //-------------COLORES DE ALERTA----------//
+    <color name="rcNormal">#98FB98</color>
+    <color name="rcCuidado">#F0E68C</color>
+    <color name="rcAlerta">#FA8072</color>
+
+</resources>

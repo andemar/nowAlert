@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Now Alert</string>
+    <string name="config">Configuracion</string>
+    <string name="anadir">Anadir Contacto</string>
+
+    //String para el activity Now Alert
+    <string name="textoExp">Ritmo cardiaco   |   Fecha Hora/Dia   |   Coordenadas</string>
+
+
+    //String para el activity lista_contactos
+    <string name="tvContactos">Lista de contactos</string>
+
+
+    //String para el activity editar contacto
+    <string name="etNombreContacto">Nombre del contacto</string>
+    <string name="etNumeroContacto">Numero del contacto</string>
+    <string name="tvOpcionesAlerta">Opciones de alerta</string>
+    <string name="tvRCMin">Ritmo cardiaco minimo</string>
+    <string name="tvRCMax">Ritmo cardiaco maximo</string>
+    <string name="tvRCDefault">00</string>
+    <string name="tvAlerta">Avisar alerta mediante</string>
+    <string name="cbLlamada">Llamada</string>
+    <string name="cbMensaje">Mensaje</string>
+    <string name="cbNada">Nada</string>
+    <string name="btCancelar">Cancelar</string>
+    <string name="btElimintar">Eliminar</string>
+    <string name="btGuardar">Guardar</string>
+
+</resources>
