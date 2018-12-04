@@ -46,6 +46,8 @@ public class nowAlert extends AppCompatActivity {
 
     // Esta chimba la pruebita e.e
 
+            //Prueba para juan andres
+
     //Respectivos nombres de la DB y tabla de datos.
     public final String NOMBRE_DB_DATOS = "dbDatos";
     public final String NOMBRE_TABLA_DATOS = "datos";
